@@ -2,8 +2,8 @@ import sqlite3
 import pandas as pd
 import os
 
-DB_PATH = "C:\\Users\\Atharv\\OneDrive\\Desktop\\Medical_Statistics\\patients.db"
-CSV_PATH = "C:\\Users\\Atharv\\OneDrive\\Desktop\\Medical_Statistics\\recovery_time.csv"
+DB_PATH = "Enter the db path of your directory"
+CSV_PATH = ".\recovery_time.csv"
 def export_recover_time(diagnosis_id):
     conn = sqlite3.connect(DB_PATH)
 
